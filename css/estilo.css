@@ -1,0 +1,168 @@
+article
+{
+    box-shadow: 10px 7px 10px orange inset; 
+
+}
+footer
+{
+    box-shadow:0px 0px 50px greenyellow;
+}
+div
+{
+    box-shadow: 0px 0px 20px red inset, 0px 0px 25px blue;
+}
+#parrafito
+{
+    text-shadow: 10px 10px 2px gray;
+}  
+input[required]{
+    border-color: blue;
+    box-shadow:0px 0px 5px blue;
+
+}
+input:invalid{
+    border-color: red;
+    box-shadow:0px 0px 5px blue ;
+}
+input:valid{
+    border-color: coral;
+    box-shadow: 0px 0px 5px blue;
+}
+input
+{
+    background-color: antiquewhite;
+    color: seagreen;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+section{
+    background: url(fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+
+
+
+form
+{
+    background-color: beige;
+    color:  black;
+}
+
+input 
+{
+    color: seagreen;
+
+}
+
+{
+margin:0;
+padding:0;
+}
+#columna1 {
+position:absolute;
+top:0px;
+left:0px;
+width:200px;
+margin-top:10px;
+background-color:#ffff55;
+}
+#columna2 {
+margin-left:220px;
+margin-right:20px;
+margin-top:10px;
+background-color:#ffffbb;
+} 
+
+}

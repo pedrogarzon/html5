@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=divice-width,initial-scale=1">
+	<link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon"/> 
+	<title>transformaciones html</title>
+</head>
+<body background="fondo.jpg" bgcolor="648078">
+	<header>
+		<img src="imagenes/bannerhtml5css.png" width="100%">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="formularios.html">formularios</a></li>
+			<li><a href="iconos.html">Iconos</a></li>
+			 <li><a href="imagenesfondo.html">Imagenes de fondo</a></li>
+            <li><a href="tipografias.html">Tipografias</a></li>
+            <li><a href="cajasflotantes.html">Cajas flotantes</a></li>
+            <li><a href="centrarcontenido.html">Centrar contenido</a></li>
+            <li><a href="posisciones.html">Posiciones</a></li>
+            <li><a href="transformaciones.html">Transformaciones</a></li>
+            <li><a href="columnastexto.html">Columnas de texto</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="video.html">Video</a></li>
+
+
+
+		</ul>
+<section>
+	<h2>transformaciones</h2>
+	<article>
+
+	</article>
+	Uso de transformadas CSS
+Al modificar las coordenadas del espacio, las transformaciones CSS permiten cambiar la posición del contenido afectado sin interrumpir el flujo normal. Se implementan haciendo uso de un conjunto de propiedades CSS que permiten aplicar transformaciones lineales a elementos HTML. Estas transformaciones incluyen rotar, torcer, escalar y desplazar en plano o en un espacio 3D.
+
+Propiedades de las transformaciones CSS
+Se usan dos propiedades principalmente para definir las transformaciones CSS: transformytransform-origin
+
+transform-origin
+Especifica la posición de origen que se usará para la transformación. Por defecto es el lado superior izquierdo del elemento. Esta posición es usada por varias transformaciones como rotar, escalar o torcer ya que necesita de este punto especifico como parámetro.
+
+transform
+Especifica la transformación a realizar sobre el elemento. Se define como una lista separada por espacios de transformaciones que se aplican en orden una después de la otra, tal y como es requerida por la operación de composición.
+
+Ejemplos
+Esta es una imagen inalterada del logo de MDN:
+
+Logotipo de MDN
+Ejemplo: Rotando
+Aquí está el logo MDN en un iframe rotado 90 grados desde su esquina inferior izquierda.
+<img src="imagenes/logo.png">
+<img style="transform: rotate(90deg);
+            transform-origin: bottom left;"
+     src="imagenes/logo.png">
+
+</section>
+
+
+	</nav>
+
+</body>
+</html>
